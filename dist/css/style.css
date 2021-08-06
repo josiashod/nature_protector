@@ -1,0 +1,135 @@
+@import "./animate.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css";
+
+.animated-block{
+    background: url('../images/pexels-andrew-neel-3178881.jpg');
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+.header-side-text{
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(15px);
+}
+
+.purpose .square {
+    width: 30vw;
+    height: 96px;
+}
+
+/* .purpose .section{
+    top: 1.5rem;
+    left: 20%;
+}
+
+.purpose .section::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -30%;
+    left: -20%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #059669;
+} */
+
+@keyframes slide-animation{
+    0%{
+        top: 24%;
+        left: -50%;
+        height: 50%;
+    }
+    50%{
+        top: 24%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+    }
+
+    75%{
+        top: 24%;
+        left: 50%;
+        width: 50%;
+        height: 50%;
+    }
+    100%{
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.hero .link span{
+    transition: .5s;
+}
+
+.hero .link:hover span{
+    margin-left: 1rem;
+}
+
+/*sm breakpoint*/
+@media (min-width: 640px){
+
+}
+
+/*md breakpoint*/
+@media (min-width: 768px){
+    .animated-block{
+        animation: slide-animation ease;
+        animation-duration: 3s;
+    }
+
+    .purpose .square{
+        height: 230px;
+    }
+
+    .purpose .purpose-text{
+        position: relative;
+        top: 115px;
+        left: 115px;
+    }
+}
+
+/*lg breakpoint*/
+@media (min-width: 1024px){
+    .purpose .square{
+        height: 308px;
+    }
+
+    .purpose .purpose-text{
+        position: relative;
+        top: 154px;
+        left: 154px;
+    }
+}
+
+/*xl breakpoint*/
+@media (min-width: 1280px){
+    .purpose .square{
+        height: 432px;
+    }
+
+    .purpose .purpose-text{
+        position: relative;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+.side{
+    background-position: center;
+    background-size: cover;
+}
+
+.side:first-child{
+    background-image: url('../images/pexels-kira-louw-4755027.jpg');
+}
+
+/* .side .side-text{
+    height: 10%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+} */
