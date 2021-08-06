@@ -2,7 +2,7 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css";
 
 .animated-block{
-    background: url('../images/pexels-andrew-neel-3178881.jpg');
+    background-image: url('../images/pexels-andrew-neel-3178881.jpg');
     background-size: cover;
     background-position: center;
     background-clip: content-box;
