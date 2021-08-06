@@ -9,6 +9,17 @@
 </head>
 
 <body class="font-light">
+    <!-- <div id="preloader" class="bg-gray-400">
+        <div class="loader">
+            <span class="pip-0"></span>
+            <span class="pip-1"></span>
+            <span class="pip-2"></span>
+            <span class="pip-3"></span>
+            <span class="pip-4"></span>
+            <span class="pip-5"></span>
+        </div>
+    </div> -->
+
     <!-- header -->
     <header class="header absolute z-30 top-0 left-0 right-0 bg-transparent px-8 md:px-10 lg:px-28 xl:px-52 py-8"
         data-wow-delay="0.1s">
@@ -59,7 +70,7 @@
                 </a>
             </div>
         </div>
-        <div class="bg-white w-full md:w-2/4 absolute top-0 bottom-0 right-0 animated-block"></div>
+        <div class="bg-white w-full md:w-2/4 absolute top-0 bottom-0 right-0 animated-block bg-black" id="header-block"></div>
         <div class="flex absolute w-64 p-2 rounded-sm right-2 bottom-4 wow fadeInUp header-side-text" data-wow-delay="2.8s">
             <div class="w-16 h-16 bg-white bg-no-repeat bg-cover bg-center mr-2" style="background-image: url(dist/images/pexels-matt-hardy-1536314.jpg);"></div>
             <div class="w-48 text-xs text-white">
@@ -74,7 +85,7 @@
         <div class="relative">
             <div class="h-screen w-full sticky top-0 overflow-hidden side">
                 <div class="w-4/6 mx-auto flex flex-wrap content-center h-full wow fadeInLeft" id="seaLeft">
-                    <h1 class="text-2xl md:text-7xl text-white uppercase font-bold">
+                    <h1 class="text-2xl md:text-5xl xl:text-7xl text-white uppercase font-bold">
                         We should protect the sea.
                     </h1>
                 </div>
@@ -83,21 +94,21 @@
         <div class="">
             <div class="h-screen w-full bg-no-repeat bg-cover bg-center" style="background-image: url(dist/images/pexels-jeremy-bishop-2765871.jpg);">
                 <div class="w-4/6 mx-auto flex flex-wrap content-center h-full">
-                    <h1 class="text-2xl md:text-7xl text-white uppercase font-bold wow fadeInUp">
+                    <h1 class="text-2xl md:text-5xl xl:text-7xl text-white uppercase font-bold wow fadeInUp">
                         The ocean is the largest ecosystem on Earth, and it is the planet’s life support system.
                     </h1>
                 </div>
             </div>
             <div class="h-screen w-full text-white" style="background-color: #123243;">
                 <div class="w-4/6 mx-auto flex flex-wrap content-center h-full wow fadeInRight">
-                    <h1 class="text-2xl md:text-7xl text-white uppercase font-bold">
+                    <h1 class="text-2xl md:text-5xl xl:text-7xl text-white uppercase font-bold">
                         “With every drop of water you drink, every breath you take, you’re connected to the sea.”
                     </h1>
                 </div>
             </div>
             <div class="h-screen w-full bg-no-repeat bg-cover bg-center" style="background-image: url(dist/images/pexels-elianne-dipp-4666751.jpg);">
                 <div class="w-4/6 mx-auto flex flex-wrap content-center h-full">
-                    <h1 class="text-2xl md:text-7xl text-white uppercase font-bold">
+                    <h1 class="text-2xl md:text-5xl xl:text-7xl text-white uppercase font-bold">
                         The sea provides at least one fifth of the animal protein people eat.
                     </h1>
                 </div>
@@ -116,7 +127,7 @@
             </div>
         </div>
         <div class="py-24 lg:py-0 lg:h-screen lg:flex w-full">
-            <div class="mb-20 lg:mb-0 w-full lg:w-3/6 flex flex-wrap content-center h-full px-24">
+            <div class="mb-20 lg:mb-0 w-full lg:w-3/6 flex flex-wrap content-center h-full px-10 xl:px-24">
                 <h1 class="text-xl md:text-3xl text-green-600 uppercase font-bold mb-2">
                     Forests Are Important
                 </h1>
@@ -128,55 +139,55 @@
                 </p>
             </div>
             <div class="w-full lg:w-3/6 flex justify-center flex-wrap content-center h-full">
-                <div class="grid grid-cols-3 gap-10">
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-deva-darshan-1173777.jpg);">
+                <div class="grid grid-cols-3 gap-1 xl:gap-10">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-deva-darshan-1173777.jpg);">
                         
                     </div>
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-yaroslav-shuraev-1834403.jpg);">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-yaroslav-shuraev-1834403.jpg);">
                        
                     </div>
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-senuscape-1658967.jpg);">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-senuscape-1658967.jpg);">
                         
                     </div>
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-felix-mittermeier-957024.jpg);">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-felix-mittermeier-957024.jpg);">
                        
                     </div>
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-elijah-odonnell-3473569.jpg);">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-elijah-odonnell-3473569.jpg);">
                         
                     </div>
-                    <div class="w-56 h-72 bg-black bg-no-repeat bg-cover bg-center rounded-md p-4" style="background-image: url(dist/images/pexels-kelly-lacy-2696134.jpg);">
+                    <div class="w-40 h-72 xl:w-56 bg-black bg-no-repeat bg-cover bg-center rounded-md" style="background-image: url(dist/images/pexels-kelly-lacy-2696134.jpg);">
                         
                     </div>
                 </div>
             </div>
         </div>
         <div class="py-24 lg:py-0 lg:h-screen lg:flex w-full bg-no-repeat bg-cover bg-center bg-fixed" style="background-image: url(dist/images/pexels-kelly-lacy-2696134.jpg);">
-            <div class="mb-20 lg:mb-0 w-full lg:w-4/6 flex flex-wrap content-center h-full px-24 wow fadeInLeft" data-wow-delay="1s">
+            <div class="mb-20 lg:mb-0 w-full lg:w-3/6 flex flex-wrap content-center h-full pl-10 xl:px-24 wow fadeInLeft" data-wow-delay="1s">
                 <h4 class="uppercase text-white mb-4">These green giants are essential for people, climate and wildlife.</h4>
-                <h1 class="text-2xl md:text-7xl text-white uppercase font-bold">
+                <h1 class="text-2xl md:text-5xl xl:text-7xl text-white uppercase font-bold">
                     We depend on forests for our survival, from the air we breathe to the wood we use.
                 </h1>
             </div>
-            <div class="w-full lg:w-2/6 flex justify-center flex-wrap content-center h-full">
+            <div class="w-full lg:w-3/6 flex justify-center flex-wrap content-center h-full">
                 <div class="grid grid-cols-2 gap-10">
-                    <div class="w-56 h-72 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="1.6s">
+                    <div class="w-48 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="1.6s">
                         <p>
                             Besides providing habitats for animals and livelihoods for humans, forests also offer watershed protection, prevent soil erosion and mitigate climate change. Yet, despite our dependence on forests, we are still allowing them to disappear.
                         </p>
                     </div>
-                    <div class="w-56 h-72 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2s">
+                    <div class="w-48 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2s">
                         <p>
                             Have you had your breakfast? Travelled to work in a bus or car? Sat on a chair? Made a shopping list? Got a parking ticket? Blown your nose into a tissue? Forest products are a vital part of our daily lives in more ways than we can imagine.
                         </p>
                     </div>
-                    <div class="w-56 h-72 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2.4s">
+                    <!-- <div class="w-48 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2.4s">
                         <p>
                             Absorbing harmful greenhouse gasses that produce climate change. In tropical forests alone, a quarter of a trillion tons of carbon is stored in above and below ground biomass
                         </p>
                     </div>
-                    <div class="w-56 h-72 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2.8s">
+                    <div class="w-48 backdrop-filter backdrop-blur-lg rounded-md p-4 text-white wow fadeIn" data-wow-delay="2.8s">
                         In addition, 300 million people live in forests, including 60 million indigenous people.Yet, we are losing them. When we take away the forest, it is not just the trees that go. The entire ecosystem begins to fall apart, with dire consequences for all of us.
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

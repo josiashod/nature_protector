@@ -18,6 +18,7 @@
     // $(window).on('load', function () {
     //     $(".loader").delay(2000).fadeOut();
     //     $("#preloader").delay(2000).fadeOut("slow");
+    //     $("#header-block").addClass('animated-block').delay(2500)
     // });
 
     new WOW().init();
